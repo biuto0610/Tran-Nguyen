@@ -29,3 +29,5 @@ def display_text_analysis(data):
         occurrences_and_percentages = pd.concat([value_counts['index'], value_counts['values'], percentages], axis=1)
         occurrences_and_percentages.columns = ['Value', 'Occurrences', 'Percentage']
         st.table(occurrences_and_percentages)
+
+
